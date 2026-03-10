@@ -1,0 +1,6 @@
+a[data-list-item-id$="nitro"], 
+a[data-list-item-id$="shop"],
+a[data-list-item-id$="quests"]
+{
+  display: none;
+}

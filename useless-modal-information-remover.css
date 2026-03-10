@@ -1,0 +1,31 @@
+div[class*=user-profile-modal]>div[class*=inner_]>div[class*=body__]>div[class*=container_]>div[class*=scroller_] section 
+{
+  display: none;
+}
+
+/* Remove everything from Member since to Note text in profile modal popout */
+div[class^="profileBody_"] section:nth-last-child(-n+4)
+{
+  display: none;
+}
+
+/* Remove mutuals friends / server on the small card thingy */
+
+div[class^="mutuals_"]
+{
+  display: none;
+}
+
+/* Remove yet another useless shit, the game possessed */
+
+ul[class^="cardsList_"]
+{
+  display: none;
+}
+
+/* Delete the pointless and horrible Board widget */
+
+div[aria-label="Board"]
+{
+  display: none;
+}
